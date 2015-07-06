@@ -1,0 +1,50 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-assertive">
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+
+    <ion-side-menu side="left">
+        <ion-header-bar>
+            <h1 class="title">Sal da Terra</h1>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                <ion-item menu-close ng-click="login()">
+                    Meditações
+                </ion-item>
+                <ion-item menu-close href="#/app/search">
+                    Diário
+                </ion-item>
+                <ion-item menu-close href="#/app/browse">
+                    Mensagens
+                </ion-item>
+                <ion-item menu-close href="#/app/playlists">
+                    Agenda
+                </ion-item>
+                <ion-item menu-close href="#/app/playlists">
+                    Pedidos de Oração
+                </ion-item>
+                <ion-item menu-close href="#/app/playlists">
+                    Facebook
+                </ion-item>
+                <ion-item menu-close href="#/app/playlists">
+                    Instagram
+                </ion-item>
+                <ion-item menu-close href="#/app/playlists">
+                    Bíblia em Áudio
+                </ion-item>
+                <ion-item menu-close href="#/app/playlists">
+                    Contato
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
